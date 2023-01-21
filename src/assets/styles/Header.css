@@ -1,0 +1,44 @@
+.header_Principal{
+    position: relative;
+    top: 30px;
+    height: 200px;
+    width: 80%;
+    background-color: #08161A;
+    color: white;
+    
+}
+
+.header_Second{
+    background-color: #00DBCE;
+    height: 176px;
+    width: 100%;
+    position: relative;
+    top:12%;
+    left: 6%;
+}
+
+.header_Circle{
+    background-color: #08161A;
+    height: 240px;
+    width: 240px;
+    border-radius: 60%;
+    position: absolute;
+    top: -19px;
+    left: 85%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_Image{
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#user_Image{
+    height: 240px;
+    width: 215px;   
+}

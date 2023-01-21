@@ -1,8 +1,12 @@
 
+import ContainerCurriculum from "../components/organism/ContainerCurriculum";
 
 function Curriculum() {
     return ( 
-        <h2>Hola Mundo</h2>
+        <>
+           <ContainerCurriculum/>  
+        </>
+        
      );
 }
 
