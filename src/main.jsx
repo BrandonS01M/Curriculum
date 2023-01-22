@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Curriculum from './containers/App'
+import Curriculum from './pages/Curriculum'
 
 
 
