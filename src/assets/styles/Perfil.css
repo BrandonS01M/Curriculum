@@ -58,3 +58,36 @@ span{
     font-weight: 750;
     font-size: 1.6rem;
 }
+
+.language_name{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+.container_Language{
+    display: flex;
+    flex-direction: row;
+}
+
+#description{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin: 20px 30px;
+}
+
+#date{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 40px 30px;
+}
+
+.container_skills{
+}
+
+.skills{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    margin: 5px 30px;
+}

@@ -1,13 +1,19 @@
 import Imagen1 from '../../assets/img/imagen1.jpg'
 import '../../assets/styles/Header.css'
+import { DataP } from '../../assets/Data/DataPerson';
 
 function Header() {
     return ( 
        <header className="header_Principal">
             <div className="header_Second">
-               <h1 id='name'><span id='lastname'></span></h1>
+               {DataP.map((data => {
+                  return <h1 id='name'>{data.name} <span id='lastname'>{data.lastname}</span></h1>
+               }))}
                <hr />
-               <p id='profession'>Ing. en Software</p>
+               {DataP.map((data => {
+                  return <p id='profession'>{data.profession}</p>
+               }))}
+               
                
 
             </div>

@@ -4,12 +4,12 @@ body{
 }
 
 .container_Curriculum{
-    height: 154vh;
-    width: 1000px;
+    height: 164vh;
+    width: 1090px;
     background-color: white;
     overflow: hidden;
     position: relative;
-    left: 15%;
+    left: 12%;
     top: 40px;
     box-shadow: 1px 1px 12px 6px rgba(0,0,0, 0.2);
 }

@@ -1,18 +1,30 @@
 import '../../assets/styles/Network.css'
+import { NetP } from '../../assets/Data/NetworkPerson';
 
 function Network() {
     return ( 
         <>
             <div className="container_Net">
-                <p className='span_Networks' id='phone'><span className='span_Network'>Num. Tel</span><br />  .</p>
+                {NetP.map((net => {
+                    return <p className='span_Networks' id='phone'><span className='span_Network'>Num. Tel</span><br />{net.phone}</p>
+                }))}
 
-                <p className='span_Networks' id='instagram'><span className='span_Network'>Instagram</span> <br /> .</p>
+                {NetP.map((net => {
+                    return <p className='span_Networks' id='instagram'><span className='span_Network'>Instagram</span><br />{net.instagrm}</p> 
+                }))}            
+                
+                {NetP.map((net => {
+                    return <p className='span_Networks' id='gmail'><span className='span_Network'>Gmail</span><br />{net.gmail} </p>
+                }))}
 
-                <p className='span_Networks' id='gmail'><span className='span_Network'>Gmail</span> <br /> .</p>
+                {NetP.map((net => {
+                    return  <p className='span_Networks' id='github'><span className='span_Network'>GitHub</span> <br />{net.github}</p>
+                }))}
 
-                <p className='span_Networks' id='github'><span className='span_Network'>GitHub</span> <br /> .</p>
-
-                <p className='span_Networks' id='twitter'><span className='span_Network'>Twitter</span> <br /> .</p>
+                {NetP.map((net => {
+                    return <p className='span_Networks' id='twitter'><span className='span_Network'>Twitter</span> <br />{net.twitter}</p>
+                }))}
+                
             </div>
 
               
