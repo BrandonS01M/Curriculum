@@ -4,9 +4,12 @@ import DataPerfil from '../atoms/DataPerfil';
 function FlexContainer() {
 
     return ( 
+        <>
         <div className="flex_Container">
             <DataPerfil/>
         </div>
+        
+        </>
      );
 }
 
